@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Colorado.kml</name>
+	<Style id="Style_5">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>9900ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8ff0034</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<Style id="Style_50">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>9900ffff</color>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b8ff0034</color>
+			<colorMode>random</colorMode>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="Style_51">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#Style_50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#Style_5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="pm281">
+		<name>Colorado</name>
+		<Snippet maxLines="0">empty</Snippet>
+		<description><![CDATA[<table cellpadding="1" cellspacing="1">
+<tr>
+<td>states.AREA:</td>
+<td>  104101.231</td>
+</tr>
+<tr>
+<td>states.STATE_NAME:</td>
+<td>Colorado</td>
+</tr>
+<tr>
+<td>states.STATE_FIPS:</td>
+<td>08</td>
+</tr>
+<tr>
+<td>states.SUB_REGION:</td>
+<td>Mtn</td>
+</tr>
+<tr>
+<td>states.STATE_ABBR:</td>
+<td>CO</td>
+</tr>
+<tr>
+<td>states.POP2000:</td>
+<td>     4301261</td>
+</tr>
+<tr>
+<td>states.POP2001:</td>
+<td>     4432642</td>
+</tr>
+<tr>
+<td>states.POP00_SQMI:</td>
+<td>          41</td>
+</tr>
+<tr>
+<td>states.DEN_0_100:</td>
+<td>          96</td>
+</tr>
+<tr>
+<td>USStates.ID:</td>
+<td>          38</td>
+</tr>
+<tr>
+<td>USStates.State_Name:</td>
+<td>Colorado</td>
+</tr>
+<tr>
+<td>USStates.Date_Entered:</td>
+<td>Aug. 1 1876</td>
+</tr>
+<tr>
+<td>USStates.Year_Entered:</td>
+<td>1876</td>
+</tr>
+<tr>
+<td>USStates.Year_Settled:</td>
+<td>1858</td>
+</tr>
+</table>]]></description>
+		<styleUrl>#Style_51</styleUrl>
+		<MultiGeometry>
+			<Point id="g950">
+				<coordinates>-105.547857280633,38.9972631547834,0</coordinates>
+			</Point>
+			<Polygon id="g951">
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-102.044455910114,37.6414742210535,0 -102.04397657417,37.7343986213713,0 -102.046060904132,38.2538220806459,0 -102.045549640322,38.2633436193344,0 -102.047584160548,38.6154993640496,0 -102.047568440936,38.6925505149901,0 -102.048972538957,39.0370029188915,0 -102.047874719263,39.1267534832,0 -102.048801584447,39.5628035180916,0 -102.049442507662,39.5686933622379,0 -102.051535596434,39.9989182728278,0 -102.047544994516,40.3426445008284,0 -102.047620488242,40.4310777832961,0 -102.046031374616,40.6973192828138,0 -102.046992332576,40.7431303349332,0 -102.047739314394,40.9980708667063,0 -102.621257047371,41.00021481921,0 -102.652271070342,40.9981241668543,0 -103.382956653967,41.0003163565243,0 -103.572316302435,40.9996484311393,0 -104.05170553525,41.00321132686,0 -104.934492922627,40.9942891435778,0 -105.278797604523,40.9963491628159,0 -106.203471481278,41.0000850018961,0 -106.329125682765,41.001288969127,0 -106.865438763821,40.9984573861084,0 -107.304051053295,41.0001333468858,0 -107.918671336725,41.0033751160193,0 -109.048314704754,40.9984333935171,0 -109.046155726194,40.6652909436328,0 -109.051263150153,40.2105113710392,0 -109.052551712149,39.6573824204021,0 -109.053528662287,39.5181701484933,0 -109.051416838185,39.3609660838809,0 -109.053948502328,38.4946509132439,0 -109.055861120835,38.2449201643366,0 -109.043464000061,38.1529336954503,0 -109.043206408646,37.8874200608917,0 -109.045602480021,37.6308206068713,0 -109.048480115363,36.9966409005893,0 -108.372472924296,36.999471575633,0 -107.472460293817,36.9987767566937,0 -107.410820543541,36.9975257849804,0 -106.89037023567,36.9990837907051,0 -106.86124887722,36.9895015941857,0 -106.472176939021,36.9915042439681,0 -105.992000086492,36.992289650437,0 -105.713459997846,36.9945603614965,0 -105.213091465415,36.992604521715,0 -105.146172547082,36.9932073726899,0 -103.993635035945,36.9944690622369,0 -103.07786588474,36.9997601837273,0 -102.997709442614,36.9985238353847,0 -102.037207602599,36.9889939197762,0 -102.042010650289,37.3862794433515,0 -102.044455910114,37.6414742210535,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
